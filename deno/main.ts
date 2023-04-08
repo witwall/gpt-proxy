@@ -20,8 +20,8 @@ serve(async (request) => {
             return await fetch(url, request);
         //https://bard.google.com/_/BardChatUi/data/assistant.lamda.BardFrontendService/StreamGenerate?
         break;
-        case '/faq':    //https://bard.google.com/faq
-            url.host = 'bard.google.com';
+        case '/phind':    //https://bard.google.com/faq
+            url.host = 'www.phind.com';
             return await fetch(url, request);
         break;        
         default:
